@@ -1,0 +1,35 @@
+
+    <div className="fixed top-0 z-50">
+      
+      <div className="navbar  flex items-center lg:w-[55%] lg:h-[70px] justify-around mx-auto my-6">
+        <div className="">
+          <img
+            src={Navbar_logo}
+            alt="navbar_logo"
+            className="lg:w-[8rem] px-3"
+          />
+        </div>
+        <div className="flex items-center justify-between ml-16 px-3 flex-[1]">
+          <nav className="text-gray-400 text-md font-semibold">
+            <ul className="flex space-x-6">
+              <li className="hover:text-white hover:cursor-pointer">Home</li>
+              <li className="hover:text-white hover:cursor-pointer">Blog</li>
+              <li className="hover:text-white hover:cursor-pointer">
+                Changelog
+              </li>
+              <li className="hover:text-white hover:cursor-pointer">Contact</li>
+            </ul>
+          </nav>
+          <div className="flex items-center  justify-end space-x-4">
+            <img src={Twitter_logo} alt="twitter_logo" className="lg:w-[13%]" />
+            <button className="bg-[#4E12BD] text-sm text-white font-semibold p-3.5 px-6 rounded-full">
+              Join the waitlist
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
